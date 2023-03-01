@@ -1,0 +1,10 @@
+li {
+    height: 20px;
+    margin-bottom: 8px;
+  }
+
+  li::before {
+    content: attr(data-icon);
+    padding-right: 10px;
+    font-size: inherit;
+  }
